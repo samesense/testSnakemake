@@ -1,0 +1,1 @@
+python writeOutput.py data/c.data output/c.txt
