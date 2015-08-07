@@ -5,4 +5,4 @@ with open(output, 'w') as fout:
     for afile in inputFiles:
         with open(afile) as f:
             for line in f:
-                print >> fout, line.strip('\n') + '_perry'
+                print(line.strip('\n') + '_perry', file=fout)
